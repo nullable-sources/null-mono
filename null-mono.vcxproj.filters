@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d11addc5-089b-4237-a3dd-c21f8f81dcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mscorlib">
+      <UniqueIdentifier>{8ac4b243-c5a4-4ac2-92db-081339caa0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono">
+      <UniqueIdentifier>{e4a18583-3bfa-4917-99b4-20f98771fd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\assembly">
+      <UniqueIdentifier>{71b41c11-1142-4c11-9f9c-def5f0ed9381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\array">
+      <UniqueIdentifier>{ebdaab2c-21bd-4622-ad9b-71051fc72255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\domain">
+      <UniqueIdentifier>{9fc94278-90ac-4f4c-be04-ebf7dd16d512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\class">
+      <UniqueIdentifier>{445a8bae-2fd1-431c-8dbb-f575d242a896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\field">
+      <UniqueIdentifier>{e435d4dd-747a-4667-9500-d862f65a46c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\method">
+      <UniqueIdentifier>{078186f8-afe9-489d-8aa4-df649c432943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\object">
+      <UniqueIdentifier>{77f1f7ce-62ea-4694-acbe-657206529fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\property">
+      <UniqueIdentifier>{ee1537fb-13a8-42b2-8c10-09704e8368ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\string">
+      <UniqueIdentifier>{5b99b2c5-3d09-4d54-bf7a-21ce490604d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\type">
+      <UniqueIdentifier>{2751ba39-b052-4497-b221-29c68f382e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mono\thread">
+      <UniqueIdentifier>{19434d81-cabc-49ad-bab8-bfcefd58f605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mscorlib\collections">
+      <UniqueIdentifier>{6441f38f-ee75-4b60-8f0b-6d54fa74e037}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\null-mono.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\array\array.cpp">
+      <Filter>src\mono\array</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\assembly\assembly.cpp">
+      <Filter>src\mono\assembly</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\class\class.cpp">
+      <Filter>src\mono\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\domain\domain.cpp">
+      <Filter>src\mono\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\field\field.cpp">
+      <Filter>src\mono\field</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\method\method.cpp">
+      <Filter>src\mono\method</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\object\object.cpp">
+      <Filter>src\mono\object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\property\property.cpp">
+      <Filter>src\mono\property</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\string\string.cpp">
+      <Filter>src\mono\string</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\thread\thread.cpp">
+      <Filter>src\mono\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mono\type\type.cpp">
+      <Filter>src\mono\type</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\null-mono.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mscorlib\collections\list.h">
+      <Filter>src\mscorlib\collections</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\exports.h">
+      <Filter>src\mono</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\array\array.h">
+      <Filter>src\mono\array</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\assembly\assembly.h">
+      <Filter>src\mono\assembly</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\class\class.h">
+      <Filter>src\mono\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\domain\domain.h">
+      <Filter>src\mono\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\field\field.h">
+      <Filter>src\mono\field</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\method\method.h">
+      <Filter>src\mono\method</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\object\object.h">
+      <Filter>src\mono\object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\property\property.h">
+      <Filter>src\mono\property</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\string\string.h">
+      <Filter>src\mono\string</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\thread\thread.h">
+      <Filter>src\mono\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mono\type\type.h">
+      <Filter>src\mono\type</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
