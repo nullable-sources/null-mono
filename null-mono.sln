@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "null-mono", "null-mono.vcxp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{A1C9AC17-C262-40E1-9598-C2D9046079A5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "null-sdk", "third-party\null-sdk\null-sdk.vcxproj", "{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		debug|x64 = debug|x64
@@ -23,9 +25,20 @@ Global
 		{F3718118-087F-4369-9EC7-AAB0EB997D12}.release|x64.Build.0 = release|x64
 		{F3718118-087F-4369-9EC7-AAB0EB997D12}.release|x86.ActiveCfg = release|Win32
 		{F3718118-087F-4369-9EC7-AAB0EB997D12}.release|x86.Build.0 = release|Win32
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.debug|x64.ActiveCfg = debug|x64
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.debug|x64.Build.0 = debug|x64
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.debug|x86.ActiveCfg = debug|Win32
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.debug|x86.Build.0 = debug|Win32
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.release|x64.ActiveCfg = release|x64
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.release|x64.Build.0 = release|x64
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.release|x86.ActiveCfg = release|Win32
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1}.release|x86.Build.0 = release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7A10A5C-0FAE-424B-8F2B-6CC4E4D898D1} = {A1C9AC17-C262-40E1-9598-C2D9046079A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55EB9A03-BD70-403B-905F-0B098EF513A2}

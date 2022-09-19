@@ -1,8 +1,7 @@
 #pragma once
 #include <mono/exports.h>
 
-//System::Collections::Generic::List<T>
-namespace mscorlib::collections {
+namespace std::collections {
     template <typename element_t>
     class c_list : public mono::object_t {
     public:

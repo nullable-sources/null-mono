@@ -1,5 +1,4 @@
 #pragma once
-
 #include <mono/domain/domain.h>
 #include <mono/thread/thread.h>
 #include <mono/assembly/assembly.h>
@@ -16,7 +15,7 @@
 
 #include <mono/exports.h>
 
-#include <mscorlib/list/list.h>
+#include <std/collections/list.h>
 
 namespace mono {
     struct parser_t {

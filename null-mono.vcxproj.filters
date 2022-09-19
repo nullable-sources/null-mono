@@ -4,9 +4,6 @@
     <Filter Include="src">
       <UniqueIdentifier>{d11addc5-089b-4237-a3dd-c21f8f81dcf1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\mscorlib">
-      <UniqueIdentifier>{8ac4b243-c5a4-4ac2-92db-081339caa0ce}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\mono">
       <UniqueIdentifier>{e4a18583-3bfa-4917-99b4-20f98771fd05}</UniqueIdentifier>
     </Filter>
@@ -43,7 +40,10 @@
     <Filter Include="src\mono\thread">
       <UniqueIdentifier>{19434d81-cabc-49ad-bab8-bfcefd58f605}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\mscorlib\collections">
+    <Filter Include="src\std">
+      <UniqueIdentifier>{8ac4b243-c5a4-4ac2-92db-081339caa0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\std\collections">
       <UniqueIdentifier>{6441f38f-ee75-4b60-8f0b-6d54fa74e037}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -89,9 +89,6 @@
     <ClInclude Include="src\null-mono.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\mscorlib\collections\list.h">
-      <Filter>src\mscorlib\collections</Filter>
-    </ClInclude>
     <ClInclude Include="src\mono\exports.h">
       <Filter>src\mono</Filter>
     </ClInclude>
@@ -127,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="src\mono\type\type.h">
       <Filter>src\mono\type</Filter>
+    </ClInclude>
+    <ClInclude Include="src\std\collections\list.h">
+      <Filter>src\std\collections</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
